@@ -1,0 +1,16 @@
+
+.head span {
+    font-size: 5vmax;
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+  }
+  .head p {
+    font-size: 1.5vmax;
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+  }
+
+
+  .color {
+      background: #eeeeee;
+  }

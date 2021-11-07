@@ -133,7 +133,7 @@ align-items: left;
   margin-bottom: 10px;
   border: 2px solid #a63242;
   border-radius: 50%;
-  transition: transform 0.1s;
+  transition: transform 0.3s;
 }
 
 .gallery .row img:hover {
@@ -248,7 +248,7 @@ hr {
 }
 
 .flip-card-back1 div h2 {
-  font-size: 19px;
+  font-size: 17px;
   font-family: "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
 }

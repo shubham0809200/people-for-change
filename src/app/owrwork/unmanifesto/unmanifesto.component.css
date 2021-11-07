@@ -1,0 +1,44 @@
+/* ******************************************** */
+
+.mobileShow {
+  display: none;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .mobileShow {
+    display: inline;
+  }
+  .container .row .col-sm-6 img {
+    height: 248px !important;
+  }
+  
+}
+.webShow {
+  display: inline;
+}
+
+/* laptop ,computer */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .webShow {
+    display: none;
+  }
+}
+
+.container .row .col-sm-6 p {
+  font-size: 15px;
+  line-height: 35px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: rgb(85, 85, 85);
+}
+
+.container .row .col-sm-6 img {
+  height: 350px;
+}
+
+.container .row h3 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}

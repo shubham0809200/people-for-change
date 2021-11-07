@@ -16,6 +16,13 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
+import { SchoolOnWheelsComponent } from './owrwork/school-on-wheels/school-on-wheels.component';
+import { SamzhoToExpressComponent } from './owrwork/samzho-to-express/samzho-to-express.component';
+import { ComicsForChangeComponent } from './owrwork/comics-for-change/comics-for-change.component';
+import { NayiRaaheinComponent } from './owrwork/nayi-raahein/nayi-raahein.component';
+import { EdpComponent } from './owrwork/edp/edp.component';
+import { UnnitiComponent } from './owrwork/unniti/unniti.component';
+import { UnmanifestoComponent } from './owrwork/unmanifesto/unmanifesto.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +31,13 @@ import { RouterModule } from '@angular/router';
     OwrworkComponent,
     AboutComponent,
     ContactComponent,
+    SchoolOnWheelsComponent,
+    SamzhoToExpressComponent,
+    ComicsForChangeComponent,
+    NayiRaaheinComponent,
+    EdpComponent,
+    UnnitiComponent,
+    UnmanifestoComponent,
   ],
   imports: [
     BrowserModule,

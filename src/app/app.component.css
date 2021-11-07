@@ -1,0 +1,120 @@
+.mobileShow {
+  display: none;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .mobileShow {
+    display: inline;
+  }
+}
+.webShow {
+  display: inline;
+}
+
+/* laptop ,computer */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .webShow {
+    display: none;
+  }
+}
+
+.mat-icon {
+  color: #741a26;
+}
+
+.mat-toolbar {
+  background-color: rgb(238, 238, 238);
+  position: fixed;
+  z-index: 9999;
+}
+
+.mat-sidenav-container {
+  min-height: 70vh;
+  background-color: rgb(255, 255, 255);
+  /* color: white; */
+}
+
+.mat-sidenav-container .mat-sidenav nav a {
+  display: block;
+  outline: 0px;
+  margin: 5px 0px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.mat-sidenav-container .mat-sidenav nav a:hover {
+  color: rgb(255, 255, 255);
+}
+.mat-sidenav-container .mat-sidenav nav a.active {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.mat-sidenav {
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+}
+
+.mat-sidenav-container .mat-sidenav-content .mat-toolbar header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+}
+
+.mat-sidenav-container .mat-sidenav-content section {
+  margin-top: 60px;
+  padding: 2px;
+}
+
+.mat-sidenav {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+}
+
+.mat-sidenav .nav {
+  align-items: flex-end;
+}
+
+.mat-sidenav nav a {
+  color: #000000;
+  border-radius: 1px;
+}
+.mat-sidenav nav a:active {
+  background-color: #741a26;
+  color: white;
+}
+.mat-sidenav nav a:hover {
+  background-color: #741a26;
+  color: white;
+}
+
+.top-navbar a {
+  color: #050505;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 1px;
+}
+
+.top-navbar a:hover {
+  background-color: #741a26;
+  color: rgb(255, 255, 255);
+}
+
+.top-navbar a.active {
+  background-color: #741a26;
+  color: #ffffff;
+}
+
+.footer {
+  background: #212121;
+  text-align: center;
+  height: 50px;
+  padding: 10px;
+}

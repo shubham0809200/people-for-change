@@ -1,0 +1,284 @@
+.mobileShow {
+  display: none;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen and (max-device-width: 600px) {
+  .mobileShow {
+    display: inline;
+  }
+  .homecontent a button {
+    margin-bottom: 10px !important;
+  }
+  .gallery .row img:hover {
+    border-radius: 10%;
+    transform: scale(1.2) !important;
+  }
+
+  .home {
+    height: 690px !important;
+  }
+
+  .homecontent h1 {
+    font-weight: bold !important;
+  }
+  .gallery .container {
+    height: 290px !important;
+    overflow-x: hidden;
+  }
+  .gallery {
+    height: 360px !important;
+  }
+  .gallery .row img {
+    width: 140px !important;
+    height: 140px !important;
+  
+  }
+  .flip-card1 {
+    width: 310px !important;
+  
+  }
+  
+}
+.webShow {
+  display: inline;
+}
+
+/* laptop ,computer */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .webShow {
+    display: none;
+  }
+}
+
+.space {
+  height: 30px;
+}
+
+.home {
+  height: 850px;
+}
+
+/* =================================== */
+
+.home {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3999/Tilt-Shift_-_Cityscene.jpg);
+  /* background-image: url(../../assets/images/main-page.jpg); */
+  background-size: 110% 110%;
+  background-position: center center;
+  animation: shrink 5s infinite alternate;
+  background-repeat: no-repeat;
+  /* object-fit: cover; */
+}
+
+@keyframes shrink {
+  0% {
+    background-size: 110% 110%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
+/* ===================================== */
+
+/* .home img {
+  width: 100%;
+  height: 600px;
+  object-position: center;
+  object-fit: cover;
+} */
+
+.homecontent a button {
+  margin-right: 10px;
+  padding: 5px 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.homecontent {
+  position: absolute;
+  top: 450px;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.homecontent h1 {
+  color: #ffff;
+  font-size: 7vh;
+  font-weight: 500;
+}
+
+.head span {
+  font-size: 4vmax;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+.head p {
+  font-size: 1.5vmax;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+
+
+
+.gallery .row {
+  padding: 0px 14px;
+align-items: left;
+}
+
+.gallery .row img {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 10px;
+  border: 2px solid #741a26;
+  border-radius: 50%;
+  transition: transform 0.1s;
+}
+
+.gallery .row img:hover {
+  border-radius: 10%;
+  transform: scale(2.5);
+}
+
+.about {
+  height: 650px;
+  background: #741a26;
+  padding: 0px 50px;
+  color: white;
+}
+
+.about .about-content {
+  font-size: 16px;
+}
+
+/* ===================================== flip cards===== */
+
+hr {
+  border-top: 3px solid rgb(73, 69, 69);
+}
+
+.contain {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  font-size: 15px;
+}
+
+.wrapper1 {
+  display: inline-flex;
+  margin-left: 10px;
+  font-weight: 200;
+}
+
+/* mobile  */
+
+.cards1 {
+  display: inline-flex;
+  /* margin-left: -30px; */
+}
+
+.flip-card1 {
+  background-color: transparent;
+  width: 400px;
+  height: 320px;
+  perspective: 1000px;
+  margin: 20px;
+}
+
+.flip-card-inner1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card1:hover .flip-card-inner1 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front1,
+.flip-card-back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front1 {
+  background-color: #741a26;
+  color: rgb(255, 255, 255);
+}
+
+.flip-card-front1 img {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  border-radius: 50%;
+  /* border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  perspective: 1000px; */
+}
+
+.flip-card-front1 h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+.flip-card-back1 {
+  background-color: #741a26;
+  color: white;
+  box-shadow: 0 -2px 5px #c0392b;
+  transform: rotateY(180deg);
+  padding: 30px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  border-bottom: 4px solid #c0392b;
+}
+
+.flip-card-back1 div {
+  text-align: start;
+}
+
+.flip-card-back1 div h2 {
+  font-size: 15px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.flip-card-back1 div ul li {
+  font-size: 15px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.flip-card-back1 a {
+  border: 1px solid #c0392b;
+  border-radius: 5px;
+  color: #ffffff;
+  text-align: center;
+  padding: 6px 30px;
+  text-decoration: none;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.flip-card-back1 button {
+  padding: 3px 30px;
+  background: #c0392b;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+}

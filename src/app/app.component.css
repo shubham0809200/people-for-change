@@ -20,7 +20,7 @@
 }
 
 .mat-icon {
-  color: #741a26;
+  color: #a63242;
 }
 
 .mat-toolbar {
@@ -67,8 +67,8 @@
 }
 
 .mat-sidenav-container .mat-sidenav-content section {
-  margin-top: 60px;
-  padding: 2px;
+  margin-top: 55px;
+  padding: 0px;
 }
 
 .mat-sidenav {
@@ -85,11 +85,11 @@
   border-radius: 1px;
 }
 .mat-sidenav nav a:active {
-  background-color: #741a26;
+  background-color: #a63242;
   color: white;
 }
 .mat-sidenav nav a:hover {
-  background-color: #741a26;
+  background-color: #a63242;
   color: white;
 }
 
@@ -103,12 +103,12 @@
 }
 
 .top-navbar a:hover {
-  background-color: #741a26;
+  background-color: #a63242;
   color: rgb(255, 255, 255);
 }
 
 .top-navbar a.active {
-  background-color: #741a26;
+  background-color: #a63242;
   color: #ffffff;
 }
 

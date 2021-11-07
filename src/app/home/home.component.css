@@ -131,7 +131,7 @@ align-items: left;
   width: 180px;
   height: 180px;
   margin-bottom: 10px;
-  border: 2px solid #741a26;
+  border: 2px solid #a63242;
   border-radius: 50%;
   transition: transform 0.1s;
 }
@@ -143,7 +143,7 @@ align-items: left;
 
 .about {
   height: 650px;
-  background: #741a26;
+  background: #a63242;
   padding: 0px 50px;
   color: white;
 }
@@ -211,7 +211,7 @@ hr {
 }
 
 .flip-card-front1 {
-  background-color: #741a26;
+  background-color: #a63242;
   color: rgb(255, 255, 255);
 }
 
@@ -234,7 +234,7 @@ hr {
 }
 
 .flip-card-back1 {
-  background-color: #741a26;
+  background-color: #a63242;
   color: white;
   box-shadow: 0 -2px 5px #c0392b;
   transform: rotateY(180deg);
@@ -248,7 +248,7 @@ hr {
 }
 
 .flip-card-back1 div h2 {
-  font-size: 15px;
+  font-size: 19px;
   font-family: "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
 }

@@ -133,7 +133,7 @@ align-items: left;
   margin-bottom: 10px;
   border: 2px solid #a63242;
   border-radius: 50%;
-  transition: transform 0.1s;
+  transition: transform 0.3s;
 }
 
 .gallery .row img:hover {
